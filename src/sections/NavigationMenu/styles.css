@@ -1,0 +1,57 @@
+.navigation-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(var(--bg), 0.8);
+    backdrop-filter: blur(8px);
+
+    nav {
+        padding: 24px 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1280px;
+        margin-inline: auto;
+
+        .links a {
+            margin: 16px;
+            text-decoration: none;
+            font-size: 14px;
+            color: var(--text);
+            cursor: pointer;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        .logo {
+            color: var(--light-accent);
+            font-weight: bold;
+            font-size: 18px;
+            font-family: var(--mono);
+
+            .fn-call {
+                color: var(--text);
+                font-weight: normal;
+            }
+
+            @media (max-width: 1024px) {
+                span:first-child {
+                    display: none;
+                }
+            }
+        }
+
+        .right-section {
+            width: 188px;
+            text-align: right;
+
+            @media (max-width: 1024px) {
+                width: 99px;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.section-header {
+    display: flex;
+    align-items: center;
+    margin: 50px 10px 20px 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    scroll-margin-top: 75px;
+
+    .divider {
+        flex: 1;
+        height: 1px;
+        background: var(--border-color);
+        margin: 0 5px;
+    }
+}
+
+#hero + .section-header {
+    margin-top: 0;
+}
