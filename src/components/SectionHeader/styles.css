@@ -1,7 +1,7 @@
 .section-header {
     display: flex;
     align-items: center;
-    margin: 50px 10px 20px 10px;
+    margin: 50px 0 20px;
     padding-top: 10px;
     font-size: 12px;
     scroll-margin-top: 75px;

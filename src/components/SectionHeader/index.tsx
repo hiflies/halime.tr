@@ -9,7 +9,7 @@ export default function SectionHeader({number, title}: SectionProps) {
         <div className="section-header" id={`section-${number}`}>
             <span>{number}</span>
             <div className="divider"></div>
-            <span>{title}</span>
+            <span>{title}.js</span>
         </div>
     );
 }

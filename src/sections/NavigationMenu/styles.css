@@ -6,13 +6,15 @@
     z-index: 1;
     background: rgba(var(--bg), 0.8);
     backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-color);
 
     nav {
-        padding: 24px 16px;
+        --padding:24px;
+        padding: var(--padding);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        max-width: 1280px;
+        max-width: calc(1280px - var(--padding) * 2);
         margin-inline: auto;
 
         .links a {

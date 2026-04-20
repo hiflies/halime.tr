@@ -28,7 +28,7 @@ const techStacks = [
     {
         title: 'Software & Tools',
         details: [
-            'Claude',
+            'Claude Code',
             'Git',
             'Visual Studio Code',
             'Webstorm',

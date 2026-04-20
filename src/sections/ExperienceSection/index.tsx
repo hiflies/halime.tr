@@ -3,16 +3,17 @@ import SectionHeader from "../../components/SectionHeader";
 import ExperienceCard from "./ExperienceCard.tsx";
 
 const experiences = [
-    {
 
-        title: 'Frontend Developer',
-        timeline: 'March 2025 - Present',
-        company: 'George Washington University',
+    {
+        title: 'Software Developer',
+        timeline: 'March 2026 - Present',
+        company: 'Lexicon IT',
         details: [
-            'Designed and deployed full-stack applications on AWS EC2 with AWS RDS for reliable database management and 99.999% uptime.',
-            'Containerized applications using Docker, enabling 40% faster deployment cycles.',
-            'Designed CI/CD pipelines with GitHub Actions, reducing release times by 50%.',
-            'Built full-stack application with React.js, Node.js, Express.js, PostgreSQL, and Tailwind CSS, supporting 500+ concurrent users and 20% faster load times.',
+            'Built foundational skills in C# and the .NET ecosystem',
+            'Developed modern web applications using HTML, CSS, JavaScript, React, Bootstrap, and Vite',
+            'Participated in team-based projects, collaborating with peers on development tasks',
+            'Took part in project planning, task distribution, and regular team meetings',
+            'Gained experience with structured development workflows and collaborative problem-solving'
         ]
     },
     {

@@ -1,0 +1,56 @@
+#contact {
+    text-align: left;
+
+    .button-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover{
+            color: var(--accent);
+        }
+    }
+
+    .mail-to {
+
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 20px;
+
+
+
+        .mail-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        .address {
+            font-weight: 500;
+        }
+    }
+
+    .mail-to:hover {
+        color: inherit;
+
+    }
+
+    .social-links {
+        display: flex;
+        gap: 16px;
+        margin-top: 20px;
+
+    }
+}
