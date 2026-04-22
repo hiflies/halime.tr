@@ -8,7 +8,7 @@ const projects = [
         description: 'This project is a modern bakery website built from an AI-generated design. It focuses on responsive layout, interactive elements, and delivering a smooth, visually engaging user experience.',
         stack: ['HTML', 'CSS', 'JavaScript', 'React'],
         links: [
-            {href: 'https://github.com/hiflies/mini-web-projects/tree/main/honeybee-cakes-react', text: 'GitHub', icon: 'github-icon-2'},
+            {href: 'https://github.com/hiflies/mini-web-projects/tree/main/honeybee-cakes', text: 'GitHub', icon: 'github-icon-2'},
             {href: 'https://mini.halime.tr/honeybee-cakes/', text: 'Demo', icon: 'link-icon'},
         ],
     },
