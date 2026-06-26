@@ -4,12 +4,21 @@ import Project from "./Project.tsx";
 
 const projects = [
     {
-        title: 'Honeybee Cakes',
-        description: 'This project is a modern bakery website built from an AI-generated design. It focuses on responsive layout, interactive elements, and delivering a smooth, visually engaging user experience.',
-        stack: ['HTML', 'CSS', 'JavaScript', 'React'],
+        title: 'BoardVerse',
+        description: 'BoardVerse is a social platform for board game enthusiasts. Users can browse a game catalog, log their plays, write posts, follow hashtags/categories, and manage their profile.',
+        stack: ['C#', 'ASP.NET Core MVC', 'Entity Framework Core', 'MySQL', 'React', 'TypeScript', 'TanStack Router', 'TanStack Query', 'Zustand'],
         links: [
-            {href: 'https://github.com/hiflies/mini-web-projects/tree/main/honeybee-cakes', text: 'GitHub', icon: 'github-icon-2'},
-            {href: 'https://mini.halime.tr/honeybee-cakes/', text: 'Demo', icon: 'link-icon'},
+            {href: 'https://github.com/hiflies/boardverse-backend', text: 'Backend', icon: 'github-icon-2'},
+            {href: 'https://github.com/hiflies/boardverse-frontend', text: 'Frontend', icon: 'github-icon-2'},
+            {href: 'https://boardverse.se', text: 'Demo', icon: 'link-icon'},
+        ],
+    },
+    {
+        title: 'CineScope',
+        description: 'A movie discovery and management web application built with ASP.NET Core MVC. Browse movies, filter by genre, view detailed information, search and import movies from TMDB, and manage the catalog through an admin dashboard.',
+        stack: ['C#', 'ASP.NET Core MVC', '.NET 10', 'Entity Framework Core', 'SQL Server', 'Razor', 'Tailwind CSS'],
+        links: [
+            { href: 'https://github.com/hiflies/cinescope', text: 'GitHub', icon: 'github-icon-2' },
         ],
     },
     {
@@ -55,15 +64,6 @@ const projects = [
         links: [
             {href: 'https://github.com/hiflies/mini-web-projects/tree/main/p5/parallelogram', text: 'GitHub', icon: 'github-icon-2'},
             {href: 'https://mini.halime.tr/p5/parallelogram/', text: 'Demo', icon: 'link-icon'},
-        ],
-    },
-    {
-        title: 'CV',
-        description: 'This mini project involves recreating a randomly selected CV design. The focus was on accurately replicating the layout, typography, and visual structure while ensuring a clean and responsive design.',
-        stack: ['HTML', 'CSS'],
-        links: [
-            {href: 'https://github.com/hiflies/mini-web-projects/tree/main/cv', text: 'GitHub', icon: 'github-icon-2'},
-            {href: 'https://mini.halime.tr/cv/', text: 'Demo', icon: 'link-icon'},
         ],
     },
 ];
